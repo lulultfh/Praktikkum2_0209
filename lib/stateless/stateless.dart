@@ -34,7 +34,10 @@ class SimpleStateless extends StatelessWidget {
           ),
         ],
       ),
-      body: Column(),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.start,
+        
+      ),
     );
   }
 }
