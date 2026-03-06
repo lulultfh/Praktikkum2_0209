@@ -7,6 +7,9 @@ class SimpleStateless extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color(0xFFE7CCCC),
+      appBar: AppBar(
+        
+      ),
     );
   }
 }
