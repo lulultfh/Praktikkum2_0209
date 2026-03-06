@@ -8,7 +8,17 @@ class SimpleStateless extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color(0xFFE7CCCC),
       appBar: AppBar(
-        
+        backgroundColor: const Color(0xFFE7CCCC),
+        leading: IconButton(
+          padding: EdgeInsets.only(left: 20, top: 20),
+          icon: Container(
+            decoration: BoxDecoration(
+              color: const Color(0xFFEDE8DC),
+              shape: BoxShape.circle
+            ),
+            child: Icon(Icons.arrow_back, color: const Color(0xff41431B), ),
+          ),
+          onPressed: (){}),
       ),
     );
   }
