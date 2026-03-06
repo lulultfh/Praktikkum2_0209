@@ -36,7 +36,10 @@ class SimpleStateless extends StatelessWidget {
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
-        
+        children: [
+          SizedBox(height: 10, width: double.infinity),
+          
+        ],
       ),
     );
   }
