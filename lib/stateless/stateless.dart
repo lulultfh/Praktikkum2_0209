@@ -34,6 +34,7 @@ class SimpleStateless extends StatelessWidget {
           ),
         ],
       ),
+      body: Column(),
     );
   }
 }
