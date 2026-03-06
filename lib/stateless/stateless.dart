@@ -38,7 +38,15 @@ class SimpleStateless extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
           SizedBox(height: 10, width: double.infinity),
-          
+          Text(
+            "Praktikum 2 PAM Lanjut",
+            style: TextStyle(
+              letterSpacing: 2,
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
+              color: const Color(0xff41431B),
+            ),
+          ),
         ],
       ),
     );
