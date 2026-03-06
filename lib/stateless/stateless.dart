@@ -14,11 +14,25 @@ class SimpleStateless extends StatelessWidget {
           icon: Container(
             decoration: BoxDecoration(
               color: const Color(0xFFEDE8DC),
-              shape: BoxShape.circle
+              shape: BoxShape.circle,
             ),
-            child: Icon(Icons.arrow_back, color: const Color(0xff41431B), ),
+            child: Icon(Icons.arrow_back, color: const Color(0xff41431B)),
           ),
-          onPressed: (){}),
+          onPressed: () {},
+        ),
+        actions: [
+          IconButton(
+            padding: EdgeInsets.only(right: 20, top: 20),
+            icon: Container(
+              decoration: BoxDecoration(
+                color: const Color(0xFFEDE8DC),
+                shape: BoxShape.circle,
+              ),
+              child: Icon(Icons.settings, color: const Color(0xff41431B)),
+            ),
+            onPressed: () {},
+          ),
+        ],
       ),
     );
   }
