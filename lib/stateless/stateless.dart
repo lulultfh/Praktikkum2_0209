@@ -5,6 +5,8 @@ class SimpleStateless extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      backgroundColor: const Color(0xFFE7CCCC),
+    );
   }
 }
