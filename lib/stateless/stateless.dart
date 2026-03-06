@@ -47,6 +47,16 @@ class SimpleStateless extends StatelessWidget {
               color: const Color(0xff41431B),
             ),
           ),
+          SizedBox(height: 10, width: double.infinity),
+          Text(
+            "Praktikum Stateless Widget",
+            style: TextStyle(
+              letterSpacing: 2,
+              fontSize: 15,
+              fontWeight: FontWeight.w300,
+              color: const Color(0xff41431B),
+            ),
+          ),
         ],
       ),
     );
