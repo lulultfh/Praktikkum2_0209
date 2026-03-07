@@ -59,7 +59,17 @@ class SimpleStateless extends StatelessWidget {
           ),
           SizedBox(height: 80, width: double.infinity),
           Container(
-            
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(30),
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.black.withOpacity(0.05),
+                  blurRadius: 20,
+                  offset: const Offset(0, 10),
+                ),
+              ],
+            ),
           ),
         ],
       ),
