@@ -83,6 +83,9 @@ class SimpleStateless extends StatelessWidget {
               ),
             ),
           ),
+          SizedBox(height: 100),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,)
         ],
       ),
     );
