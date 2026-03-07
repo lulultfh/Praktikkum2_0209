@@ -103,6 +103,23 @@ class SimpleStateless extends StatelessWidget {
                 ),
                 child: const Row(children: [Text("Cancel")]),
               ),
+              SizedBox(width: 20),
+              ElevatedButton(
+                onPressed: () {},
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: const Color.fromARGB(255, 7, 44, 100),
+                  foregroundColor: Colors.white,
+                  elevation: 0,
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 50,
+                    vertical: 13,
+                  ),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(30),
+                  ),
+                ),
+                child: const Row(children: [Text("Save")]),
+              ),
             ],
           ),
         ],
