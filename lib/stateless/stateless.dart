@@ -122,6 +122,29 @@ class SimpleStateless extends StatelessWidget {
               ),
             ],
           ),
+          SizedBox(height: 50),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Text(
+                "20230140209",
+                style: TextStyle(
+                  fontSize: 15,
+                  color: Colors.blueGrey.shade300,
+                  fontWeight: FontWeight.w500,
+                ),
+              ),
+              SizedBox(width: 20),
+              Text(
+                "Lu'lu' Luthfiah",
+                style: TextStyle(
+                  fontSize: 15,
+                  color: Colors.blueGrey.shade300,
+                  fontWeight: FontWeight.w500,
+                ),
+              ),
+            ],
+          ),
         ],
       ),
     );
