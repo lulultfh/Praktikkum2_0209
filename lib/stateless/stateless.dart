@@ -57,6 +57,10 @@ class SimpleStateless extends StatelessWidget {
               color: const Color(0xff41431B),
             ),
           ),
+          SizedBox(height: 80, width: double.infinity),
+          Container(
+            
+          ),
         ],
       ),
     );
