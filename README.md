@@ -3,9 +3,9 @@
 >Nama: Lu'lu' Luthfiah<br>
 >NIM: 20230140209
 
-| No | Name | Screenshot |
-|--|---|---|
-|1.|Stateless Page|<img width="1080" height="2160" alt="screenshot2" src="https://github.com/user-attachments/assets/07e8f855-30d4-4718-a11d-f56255e393d0" />|
+| Statefull Widget | Stateless Widget |
+|--|---|
+|<img width="1080" height="2160" alt="screenshot3" src="https://github.com/user-attachments/assets/ae93ea0b-e41d-466b-9717-80af36ead133" />|<img width="1080" height="2160" alt="screenshot2" src="https://github.com/user-attachments/assets/07e8f855-30d4-4718-a11d-f56255e393d0" />|
 
 <!--# activity2_0209
 
