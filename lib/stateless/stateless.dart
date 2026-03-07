@@ -72,7 +72,15 @@ class SimpleStateless extends StatelessWidget {
             ),
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 40),
-              child: Column(),
+              child: Column(
+                children: [
+                  Image.asset(
+                    "public/images/kucing.jpg",
+                    width: 250,
+                    height: 250,
+                  ),
+                ],
+              ),
             ),
           ),
         ],
