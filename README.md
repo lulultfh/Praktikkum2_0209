@@ -1,4 +1,13 @@
-# activity2_0209
+# Stateful & Stateless Widget
+
+>Nama: Lu'lu' Luthfiah<br>
+>NIM: 20230140209
+
+| No | Name | Screenshot |
+|--|---|---|
+|1.|Stateless Page|<img width="1080" height="2160" alt="screenshot2" src="https://github.com/user-attachments/assets/07e8f855-30d4-4718-a11d-f56255e393d0" />|
+
+<!--# activity2_0209
 
 A new Flutter project.
 
@@ -14,3 +23,4 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+-->
