@@ -107,7 +107,7 @@ class SimpleStateless extends StatelessWidget {
               ElevatedButton(
                 onPressed: () {},
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: const Color.fromARGB(255, 7, 44, 100),
+                  backgroundColor: const Color(0xff41431B),
                   foregroundColor: Colors.white,
                   elevation: 0,
                   padding: const EdgeInsets.symmetric(
